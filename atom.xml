@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2017-10-29T15:26:18.426Z</updated>
+  <updated>2017-10-29T18:07:15.633Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title></title>
+    <link href="http://yoursite.com/2017/10/30/Linux%E9%85%8D%E7%BD%AEJava%E7%8E%AF%E5%A2%83%EF%BC%8C%E5%AE%89%E8%A3%85Mysql%E5%92%8CTomcat/"/>
+    <id>http://yoursite.com/2017/10/30/Linux配置Java环境，安装Mysql和Tomcat/</id>
+    <published>2017-10-29T18:02:54.940Z</published>
+    <updated>2017-10-29T18:07:15.633Z</updated>
+    
+    <content type="html"><![CDATA[<h4 id="1、设置Linux字符集为中文"><a href="#1、设置Linux字符集为中文" class="headerlink" title="1、设置Linux字符集为中文"></a>1、设置Linux字符集为中文</h4><figure class="highlight shell"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">vim /etc/sysconfig/i18n</div></pre></td></tr></table></figure><p>默认：<br>LANG=”en_US.UTF-8”<br>SYSFONiT=”latarcyrheb-sun16”<br>改为：<br>LANG=”zh_CN.UTF-8”<br>LANGUAGE=”zh_CN.gbk:zh_CN.gbk:zh_CN”<br>SUPPORTED=”zh_CN.gbk:zh_CN:zh:en_US.UTF-8:en_US:en”<br>SYSFONT=”lat0-sun16”<br><figure class="highlight shell"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">vim /etc/profile</div></pre></td></tr></table></figure></p><p>export LC_ALL=”zh_CN.UTF-8”<br>export LANG=”zh_CN.UTF-8”</p><h6 id="查看编码"><a href="#查看编码" class="headerlink" title="查看编码"></a>查看编码</h6><figure class="highlight shell"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">locale</div></pre></td></tr></table></figure><h6 id="先更新yum源"><a href="#先更新yum源" class="headerlink" title="先更新yum源"></a>先更新yum源</h6><figure class="highlight shell"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">yum -y update</div></pre></td></tr></table></figure><h4 id="2、安装java环境"><a href="#2、安装java环境" class="headerlink" title="2、安装java环境"></a>2、安装java环境</h4><figure class="highlight shell"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">yum -y list java*  //查看yum库中的java安装包</div><div class="line">yum -y install java-1.8.0-openjdk*  //找到一个直接安装</div><div class="line">java -version //查看安装的java版本</div></pre></td></tr></table></figure><h4 id="3、安装mysql"><a href="#3、安装mysql" class="headerlink" title="3、安装mysql"></a>3、安装mysql</h4><figure class="highlight shell"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">wget http://dev.mysql.com/get/mysql-community-release-el7-5.noarch.rpm</div><div class="line">rpm -ivh mysql-community-release-el7-5.noarch.rpm</div><div class="line">yum install mysql-community-server</div></pre></td></tr></table></figure><p>成功安装之后重启mysql服务</p><h6 id="如果yum包中有mysql-community-server，则直接以下命令即可"><a href="#如果yum包中有mysql-community-server，则直接以下命令即可" class="headerlink" title="如果yum包中有mysql-community-server，则直接以下命令即可"></a>如果yum包中有mysql-community-server，则直接以下命令即可</h6><figure class="highlight shell"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">yum -y install mysql*</div></pre></td></tr></table></figure><h6 id="重启mysql"><a href="#重启mysql" class="headerlink" title="重启mysql"></a>重启mysql</h6><figure class="highlight shell"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">service mysqld restart</div></pre></td></tr></table></figure><h6 id="初次安装mysql是root账户是没有密码的，设置密码的方法"><a href="#初次安装mysql是root账户是没有密码的，设置密码的方法" class="headerlink" title="初次安装mysql是root账户是没有密码的，设置密码的方法"></a>初次安装mysql是root账户是没有密码的，设置密码的方法</h6><figure class="highlight shell"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">mysql -uroot</div><div class="line"><span class="meta">mysql&gt;</span> set password for 'root'@'localhost' = password('mypasswd');</div><div class="line"><span class="meta">mysql&gt;</span> GRANT ALL PRIVILEGES ON *.* TO 'root'@'%' IDENTIFIED BY 'sa' WITH GRANT OPTION;//此种设置方法可以让外部软件navicat连接数据库</div><div class="line"><span class="meta">mysql&gt;</span> exit</div></pre></td></tr></table></figure><p>搞定！</p><h4 id="4、安装tomcat"><a href="#4、安装tomcat" class="headerlink" title="4、安装tomcat"></a>4、安装tomcat</h4><figure class="highlight shell"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">yum -y list tomcat*  //查看yum库中的tomcat安装包</div><div class="line">yum -y install tomcat*  //找到一个直接安装</div><div class="line">service tomcat start //启动tomcat</div></pre></td></tr></table></figure>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h4 id=&quot;1、设置Linux字符集为中文&quot;&gt;&lt;a href=&quot;#1、设置Linux字符集为中文&quot; class=&quot;headerlink&quot; title=&quot;1、设置Linux字符集为中文&quot;&gt;&lt;/a&gt;1、设置Linux字符集为中文&lt;/h4&gt;&lt;figure class=&quot;highli
+      
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>Hello World</title>
