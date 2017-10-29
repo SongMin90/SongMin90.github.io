@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title></title>
+    <title><![CDATA[Linux配置Java环境，安装Mysql和Tomcat]]></title>
     <url>%2F2017%2F10%2F30%2FLinux%E9%85%8D%E7%BD%AEJava%E7%8E%AF%E5%A2%83%EF%BC%8C%E5%AE%89%E8%A3%85Mysql%E5%92%8CTomcat%2F</url>
     <content type="text"><![CDATA[1、设置Linux字符集为中文1vim /etc/sysconfig/i18n 默认：LANG=”en_US.UTF-8”SYSFONiT=”latarcyrheb-sun16”改为：LANG=”zh_CN.UTF-8”LANGUAGE=”zh_CN.gbk:zh_CN.gbk:zh_CN”SUPPORTED=”zh_CN.gbk:zh_CN:zh:en_US.UTF-8:en_US:en”SYSFONT=”lat0-sun16”1vim /etc/profile export LC_ALL=”zh_CN.UTF-8”export LANG=”zh_CN.UTF-8” 查看编码1locale 先更新yum源1yum -y update 2、安装java环境123yum -y list java* //查看yum库中的java安装包yum -y install java-1.8.0-openjdk* //找到一个直接安装java -version //查看安装的java版本 3、安装mysql123wget http://dev.mysql.com/get/mysql-community-release-el7-5.noarch.rpmrpm -ivh mysql-community-release-el7-5.noarch.rpmyum install mysql-community-server 成功安装之后重启mysql服务 如果yum包中有mysql-community-server，则直接以下命令即可1yum -y install mysql* 重启mysql1service mysqld restart 初次安装mysql是root账户是没有密码的，设置密码的方法1234mysql -urootmysql&gt; set password for 'root'@'localhost' = password('mypasswd');mysql&gt; GRANT ALL PRIVILEGES ON *.* TO 'root'@'%' IDENTIFIED BY 'sa' WITH GRANT OPTION; //此种设置方法可以让外部软件navicat连接数据库mysql&gt; exit 搞定！ 4、安装tomcat123yum -y list tomcat* //查看yum库中的tomcat安装包yum -y install tomcat* //找到一个直接安装service tomcat start //启动tomcat]]></content>
   </entry>
