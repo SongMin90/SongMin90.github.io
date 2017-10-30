@@ -1,48 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
-<search> 
-  
-    
-    <entry>
-      <title><![CDATA[Linux配置Java环境，安装Mysql和Tomcat]]></title>
-      <url>/2017/10/30/Linux%E9%85%8D%E7%BD%AEJava%E7%8E%AF%E5%A2%83%EF%BC%8C%E5%AE%89%E8%A3%85Mysql%E5%92%8CTomcat/</url>
-      <content type="html"><![CDATA[<h4 id="1、设置Linux字符集为中文"><a href="#1、设置Linux字符集为中文" class="headerlink" title="1、设置Linux字符集为中文"></a>1、设置Linux字符集为中文</h4><figure class="highlight shell"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">vim /etc/sysconfig/i18n</div></pre></td></tr></table></figure>
-<p>默认：<br>LANG=”en_US.UTF-8”<br>SYSFONiT=”latarcyrheb-sun16”<br>改为：<br>LANG=”zh_CN.UTF-8”<br>LANGUAGE=”zh_CN.gbk:zh_CN.gbk:zh_CN”<br>SUPPORTED=”zh_CN.gbk:zh_CN:zh:en_US.UTF-8:en_US:en”<br>SYSFONT=”lat0-sun16”<br><a id="more"></a><br><figure class="highlight shell"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">vim /etc/profile</div></pre></td></tr></table></figure></p>
-<p>export LC_ALL=”zh_CN.UTF-8”<br>export LANG=”zh_CN.UTF-8”</p>
-<h6 id="查看编码"><a href="#查看编码" class="headerlink" title="查看编码"></a>查看编码</h6><figure class="highlight shell"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">locale</div></pre></td></tr></table></figure>
-<h6 id="先更新yum源"><a href="#先更新yum源" class="headerlink" title="先更新yum源"></a>先更新yum源</h6><figure class="highlight shell"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">yum -y update</div></pre></td></tr></table></figure>
-<h4 id="2、安装java环境"><a href="#2、安装java环境" class="headerlink" title="2、安装java环境"></a>2、安装java环境</h4><figure class="highlight shell"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">yum -y list java*  //查看yum库中的java安装包</div><div class="line">yum -y install java-1.8.0-openjdk*  //找到一个直接安装</div><div class="line">java -version //查看安装的java版本</div></pre></td></tr></table></figure>
-<h4 id="3、安装mysql"><a href="#3、安装mysql" class="headerlink" title="3、安装mysql"></a>3、安装mysql</h4><figure class="highlight shell"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">wget http://dev.mysql.com/get/mysql-community-release-el7-5.noarch.rpm</div><div class="line">rpm -ivh mysql-community-release-el7-5.noarch.rpm</div><div class="line">yum install mysql-community-server</div></pre></td></tr></table></figure>
-<p>成功安装之后重启mysql服务</p>
-<h6 id="如果yum包中有mysql-community-server，则直接以下命令即可"><a href="#如果yum包中有mysql-community-server，则直接以下命令即可" class="headerlink" title="如果yum包中有mysql-community-server，则直接以下命令即可"></a>如果yum包中有mysql-community-server，则直接以下命令即可</h6><figure class="highlight shell"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">yum -y install mysql*</div></pre></td></tr></table></figure>
-<h6 id="重启mysql"><a href="#重启mysql" class="headerlink" title="重启mysql"></a>重启mysql</h6><figure class="highlight shell"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">service mysqld restart</div></pre></td></tr></table></figure>
-<h6 id="初次安装mysql是root账户是没有密码的，设置密码的方法"><a href="#初次安装mysql是root账户是没有密码的，设置密码的方法" class="headerlink" title="初次安装mysql是root账户是没有密码的，设置密码的方法"></a>初次安装mysql是root账户是没有密码的，设置密码的方法</h6><figure class="highlight shell"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">mysql -uroot</div><div class="line"><span class="meta">mysql&gt;</span> set password for 'root'@'localhost' = password('mypasswd');</div><div class="line"><span class="meta">mysql&gt;</span> GRANT ALL PRIVILEGES ON *.* TO 'root'@'%' IDENTIFIED BY 'sa' WITH GRANT OPTION;	//此种设置方法可以让外部软件navicat连接数据库</div><div class="line"><span class="meta">mysql&gt;</span> exit</div></pre></td></tr></table></figure>
-<p>搞定！</p>
-<h4 id="4、安装tomcat"><a href="#4、安装tomcat" class="headerlink" title="4、安装tomcat"></a>4、安装tomcat</h4><figure class="highlight shell"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">yum -y list tomcat*  //查看yum库中的tomcat安装包</div><div class="line">yum -y install tomcat*  //找到一个直接安装</div><div class="line">service tomcat start //启动tomcat</div></pre></td></tr></table></figure>]]></content>
-      
-        
-    </entry>
-    
-    <entry>
-      <title><![CDATA[欢迎光临]]></title>
-      <url>/2017/10/29/hello-world/</url>
-      <content type="html"><![CDATA[<p><img src="http://oym908ihz.bkt.clouddn.com/David%20Gomez%20%202017-10-15%2005-48-27.jpg" alt="此处输入图片的描述"></p>
-<h2 id="欢迎访问SongM的个人博客！！！"><a href="#欢迎访问SongM的个人博客！！！" class="headerlink" title="欢迎访问SongM的个人博客！！！"></a><a href="https://songmin90.github.io" title="欢迎访问SongM的个人博客！！！" target="_blank" rel="external">欢迎访问SongM的个人博客！！！</a></h2>]]></content>
-      
-        <categories>
-            
-            <category> 记录 </category>
-            
-        </categories>
-        
-        
-        <tags>
-            
-            <tag> 欢迎访问 </tag>
-            
-        </tags>
-        
-    </entry>
-    
-  
-  
+<search>
+  <entry>
+    <title><![CDATA[Linux配置Java环境，安装Mysql和Tomcat]]></title>
+    <url>%2F2017%2F10%2F30%2FLinux%E9%85%8D%E7%BD%AEJava%E7%8E%AF%E5%A2%83%EF%BC%8C%E5%AE%89%E8%A3%85Mysql%E5%92%8CTomcat%2F</url>
+    <content type="text"><![CDATA[1、设置Linux字符集为中文1vim /etc/sysconfig/i18n 默认：LANG=”en_US.UTF-8”SYSFONiT=”latarcyrheb-sun16”改为：LANG=”zh_CN.UTF-8”LANGUAGE=”zh_CN.gbk:zh_CN.gbk:zh_CN”SUPPORTED=”zh_CN.gbk:zh_CN:zh:en_US.UTF-8:en_US:en”SYSFONT=”lat0-sun16”1vim /etc/profile export LC_ALL=”zh_CN.UTF-8”export LANG=”zh_CN.UTF-8” 查看编码1locale 先更新yum源1yum -y update 2、安装java环境123yum -y list java* //查看yum库中的java安装包yum -y install java-1.8.0-openjdk* //找到一个直接安装java -version //查看安装的java版本 3、安装mysql123wget http://dev.mysql.com/get/mysql-community-release-el7-5.noarch.rpmrpm -ivh mysql-community-release-el7-5.noarch.rpmyum install mysql-community-server 成功安装之后重启mysql服务 如果yum包中有mysql-community-server，则直接以下命令即可1yum -y install mysql* 重启mysql1service mysqld restart 初次安装mysql是root账户是没有密码的，设置密码的方法1234mysql -urootmysql&gt; set password for 'root'@'localhost' = password('mypasswd');mysql&gt; GRANT ALL PRIVILEGES ON *.* TO 'root'@'%' IDENTIFIED BY 'sa' WITH GRANT OPTION; //此种设置方法可以让外部软件navicat连接数据库mysql&gt; exit 搞定！ 4、安装tomcat123yum -y list tomcat* //查看yum库中的tomcat安装包yum -y install tomcat* //找到一个直接安装service tomcat start //启动tomcat]]></content>
+  </entry>
+  <entry>
+    <title><![CDATA[欢迎光临]]></title>
+    <url>%2F2017%2F10%2F29%2Fhello-world%2F</url>
+    <content type="text"><![CDATA[欢迎访问SongM的个人博客！！！]]></content>
+      <categories>
+        <category>记录</category>
+      </categories>
+      <tags>
+        <tag>欢迎访问</tag>
+      </tags>
+  </entry>
 </search>
