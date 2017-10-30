@@ -134,20 +134,17 @@
   
   <entry>
     <title>欢迎访问SongM的个人博客！！！</title>
-    <link href="http://yoursite.com/2017/10/29/hello-world/"/>
-    <id>http://yoursite.com/2017/10/29/hello-world/</id>
+    <link href="http://yoursite.com/2017/10/29/%E6%AC%A2%E8%BF%8E%E8%AE%BF%E9%97%AE/"/>
+    <id>http://yoursite.com/2017/10/29/欢迎访问/</id>
     <published>2017-10-29T15:26:00.000Z</published>
-    <updated>2017-10-30T08:38:36.036Z</updated>
+    <updated>2017-10-30T12:37:52.294Z</updated>
     
-    <content type="html"><![CDATA[<p><img src="http://oym908ihz.bkt.clouddn.com/David%20Gomez%20%202017-10-15%2005-48-27.jpg" alt="此处输入图片的描述"></p><h2 id="博客采用Hexo建站，欢迎大家访问！"><a href="#博客采用Hexo建站，欢迎大家访问！" class="headerlink" title="博客采用Hexo建站，欢迎大家访问！"></a>博客采用<a href="https://hexo.io" target="_blank" rel="external">Hexo</a>建站，欢迎大家访问！</h2>]]></content>
+    <content type="html"><![CDATA[<p><img src="http://oym908ihz.bkt.clouddn.com/David%20Gomez%20%202017-10-15%2005-48-27.jpg" alt="此处输入图片的描述"></p><h2 id="博客采用Hexo搭建，欢迎大家访问！"><a href="#博客采用Hexo搭建，欢迎大家访问！" class="headerlink" title="博客采用Hexo搭建，欢迎大家访问！"></a>博客采用<a href="https://hexo.io" target="_blank" rel="external">Hexo</a>搭建，欢迎大家访问！</h2><a id="more"></a><iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="330" height="86" src="//music.163.com/outchain/player?type=2&id=584155&auto=0&height=66"></iframe>]]></content>
     
     <summary type="html">
     
-      
-      
-        &lt;p&gt;&lt;img src=&quot;http://oym908ihz.bkt.clouddn.com/David%20Gomez%20%202017-10-15%2005-48-27.jpg&quot; alt=&quot;此处输入图片的描述&quot;&gt;&lt;/p&gt;
-&lt;h2 id=&quot;博客采用Hexo建站，欢迎大家访问！&quot;
-      
+      &lt;p&gt;&lt;img src=&quot;http://oym908ihz.bkt.clouddn.com/David%20Gomez%20%202017-10-15%2005-48-27.jpg&quot; alt=&quot;此处输入图片的描述&quot;&gt;&lt;/p&gt;
+&lt;h2 id=&quot;博客采用Hexo搭建，欢迎大家访问！&quot;&gt;&lt;a href=&quot;#博客采用Hexo搭建，欢迎大家访问！&quot; class=&quot;headerlink&quot; title=&quot;博客采用Hexo搭建，欢迎大家访问！&quot;&gt;&lt;/a&gt;博客采用&lt;a href=&quot;https://hexo.io&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Hexo&lt;/a&gt;搭建，欢迎大家访问！&lt;/h2&gt;
     
     </summary>
     
