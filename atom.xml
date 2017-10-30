@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2017-10-30T09:35:09.844Z</updated>
+  <updated>2017-10-30T10:28:21.977Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -17,11 +17,11 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>可批量转换编码</title>
+    <title>批量转换编码工具</title>
     <link href="http://yoursite.com/2017/10/30/%E5%8F%AF%E6%89%B9%E9%87%8F%E8%BD%AC%E6%8D%A2%E7%BC%96%E7%A0%81/"/>
     <id>http://yoursite.com/2017/10/30/可批量转换编码/</id>
     <published>2017-10-30T09:01:00.000Z</published>
-    <updated>2017-10-30T09:35:09.844Z</updated>
+    <updated>2017-10-30T10:28:21.977Z</updated>
     
     <content type="html"><![CDATA[<p>项目地址：<a href="https://github.com/SongMin90/CodedConversion" target="_blank" rel="external">https://github.com/SongMin90/CodedConversion</a></p><p>windows配置java环境点击“文件编码转换工具.jar”运行即可。<a href="https://github.com/SongMin90/CodedConversion/blob/master/%E6%96%87%E4%BB%B6%E7%BC%96%E7%A0%81%E8%BD%AC%E6%8D%A2%E5%B7%A5%E5%85%B7.jar?raw=true" title="下载工具" target="_blank" rel="external">下载工具</a><br><a id="more"></a><br><img src="http://oym908ihz.bkt.clouddn.com/%E5%8D%95%E4%B8%AA%E6%93%8D%E4%BD%9C.png" alt="单个操作"><img src="http://oym908ihz.bkt.clouddn.com/%E6%89%B9%E9%87%8F%E6%93%8D%E4%BD%9C.png" alt="批量操作"></p>]]></content>
     
@@ -40,11 +40,11 @@
   </entry>
   
   <entry>
-    <title>读取文件夹的全部文件</title>
+    <title>Java递归读取文件</title>
     <link href="http://yoursite.com/2017/10/30/%E8%AF%BB%E5%8F%96%E6%96%87%E4%BB%B6%E5%A4%B9%E7%9A%84%E5%85%A8%E9%83%A8%E6%96%87%E4%BB%B6/"/>
     <id>http://yoursite.com/2017/10/30/读取文件夹的全部文件/</id>
     <published>2017-10-30T09:00:00.000Z</published>
-    <updated>2017-10-30T09:01:09.848Z</updated>
+    <updated>2017-10-30T10:30:24.590Z</updated>
     
     <content type="html"><![CDATA[<p>在<strong>java</strong>开发中，很多情况需要我们对一个文件夹里的文件进行各种操作，于是这里我们可以使用递归的方式循环读取文件夹文件<br><figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div></pre></td><td class="code"><pre><div class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">find</span><span class="params">(String src)</span> </span>&#123;</div><div class="line">File file = <span class="keyword">new</span> File(src);</div><div class="line">File[] list = file.listFiles();</div><div class="line"><span class="keyword">for</span> (File f : list) &#123;</div><div class="line"><span class="keyword">if</span>(f.isDirectory()) &#123;</div><div class="line">find(f);</div><div class="line">&#125; <span class="keyword">else</span> &#123;</div><div class="line"><span class="comment">// 这里即对文件进行操作</span></div><div class="line">&#125;</div><div class="line">&#125;</div><div class="line">&#125;</div></pre></td></tr></table></figure></p>]]></content>
     
@@ -60,14 +60,16 @@
       <category term="Java" scheme="http://yoursite.com/categories/Java/"/>
     
     
+      <category term="递归" scheme="http://yoursite.com/tags/%E9%80%92%E5%BD%92/"/>
+    
   </entry>
   
   <entry>
-    <title>安卓倒计时定时器</title>
+    <title>安卓定时器</title>
     <link href="http://yoursite.com/2017/10/30/%E5%AE%89%E5%8D%93%E5%80%92%E8%AE%A1%E6%97%B6%E5%AE%9A%E6%97%B6%E5%99%A8/"/>
     <id>http://yoursite.com/2017/10/30/安卓倒计时定时器/</id>
     <published>2017-10-30T08:58:00.000Z</published>
-    <updated>2017-10-30T09:06:06.380Z</updated>
+    <updated>2017-10-30T10:30:44.836Z</updated>
     
     <content type="html"><![CDATA[<p>在安卓开发引导界面的时候，我们可以使用安卓自带的定时器<strong>CountDownTimer</strong><br><figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">new</span> CountDownTimer(<span class="number">3000</span>, <span class="number">1000</span>) &#123; <span class="comment">// 第一个时间为总时间，第二个为间隔时间</span></div><div class="line"><span class="meta">@Override</span></div><div class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">onTick</span><span class="params">(<span class="keyword">long</span> l)</span> </span>&#123; <span class="comment">// 每次循环将执行</span></div><div class="line">tv_time.setText(l/<span class="number">1000</span> + <span class="string">" s"</span>);</div><div class="line">&#125;</div><div class="line"></div><div class="line"><span class="meta">@Override</span></div><div class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">onFinish</span><span class="params">()</span> </span>&#123; <span class="comment">// 计时结束后执行</span></div><div class="line">Intent intent = <span class="keyword">new</span> Intent(GuideActivity.<span class="keyword">this</span>, MainActivity.class);</div><div class="line">intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK | Intent.FLAG_ACTIVITY_NEW_TASK);</div><div class="line">startActivity(intent);</div><div class="line">&#125;</div><div class="line">&#125;.start();</div></pre></td></tr></table></figure></p><a id="more"></a><p>相比<strong>Handler</strong>，这种方式将使代码变得十分简洁和方便。</p>]]></content>
     

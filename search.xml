@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title><![CDATA[可批量转换编码]]></title>
+    <title><![CDATA[批量转换编码工具]]></title>
     <url>%2F2017%2F10%2F30%2F%E5%8F%AF%E6%89%B9%E9%87%8F%E8%BD%AC%E6%8D%A2%E7%BC%96%E7%A0%81%2F</url>
     <content type="text"><![CDATA[项目地址：https://github.com/SongMin90/CodedConversion windows配置java环境点击“文件编码转换工具.jar”运行即可。下载工具]]></content>
       <categories>
@@ -12,15 +12,18 @@
       </tags>
   </entry>
   <entry>
-    <title><![CDATA[读取文件夹的全部文件]]></title>
+    <title><![CDATA[Java递归读取文件]]></title>
     <url>%2F2017%2F10%2F30%2F%E8%AF%BB%E5%8F%96%E6%96%87%E4%BB%B6%E5%A4%B9%E7%9A%84%E5%85%A8%E9%83%A8%E6%96%87%E4%BB%B6%2F</url>
     <content type="text"><![CDATA[在java开发中，很多情况需要我们对一个文件夹里的文件进行各种操作，于是这里我们可以使用递归的方式循环读取文件夹文件1234567891011public void find(String src) &#123; File file = new File(src); File[] list = file.listFiles(); for (File f : list) &#123; if(f.isDirectory()) &#123; find(f); &#125; else &#123; // 这里即对文件进行操作 &#125; &#125;&#125;]]></content>
       <categories>
         <category>Java</category>
       </categories>
+      <tags>
+        <tag>递归</tag>
+      </tags>
   </entry>
   <entry>
-    <title><![CDATA[安卓倒计时定时器]]></title>
+    <title><![CDATA[安卓定时器]]></title>
     <url>%2F2017%2F10%2F30%2F%E5%AE%89%E5%8D%93%E5%80%92%E8%AE%A1%E6%97%B6%E5%AE%9A%E6%97%B6%E5%99%A8%2F</url>
     <content type="text"><![CDATA[在安卓开发引导界面的时候，我们可以使用安卓自带的定时器CountDownTimer12345678910111213new CountDownTimer(3000, 1000) &#123; // 第一个时间为总时间，第二个为间隔时间 @Override public void onTick(long l) &#123; // 每次循环将执行 tv_time.setText(l/1000 + " s"); &#125; @Override public void onFinish() &#123; // 计时结束后执行 Intent intent = new Intent(GuideActivity.this, MainActivity.class); intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK | Intent.FLAG_ACTIVITY_NEW_TASK); startActivity(intent); &#125;&#125;.start(); 相比Handler，这种方式将使代码变得十分简洁和方便。]]></content>
       <categories>
