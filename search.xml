@@ -1,190 +1,77 @@
 <?xml version="1.0" encoding="utf-8"?>
-<search> 
-  
-    
-    <entry>
-      <title><![CDATA[地心引力]]></title>
-      <url>/2017/10/31/%E5%9C%B0%E5%BF%83%E5%BC%95%E5%8A%9B/</url>
-      <content type="html"><![CDATA[<h2 id="地心引力-Gravity-2013"><a href="#地心引力-Gravity-2013" class="headerlink" title="地心引力 Gravity (2013)"></a>地心引力 Gravity (2013)</h2><p><img src="http://oym908ihz.bkt.clouddn.com/%E5%9C%B0%E5%BF%83%E5%BC%95%E5%8A%9B.jpg" alt="此处输入图片的描述"><br><a href="https://movie.douban.com/subject/3793783" target="_blank" rel="external">豆瓣：7.8</a><br>    导演: 阿方索·卡隆<br>    编剧: 阿方索·卡隆 / 霍纳斯·夸隆<br>    主演: 桑德拉·布洛克 / 乔治·克鲁尼 / 艾德·哈里斯 / 奥托·伊格内修森 / 法尔杜特·夏尔马 / 更多…<br>    类型: 剧情 / 科幻 / 冒险<br>    制片国家/地区: 美国 / 英国<br>    语言: 英语 / 格陵兰语<br>    上映日期: 2013-11-19(中国大陆) / 2013-08-28(威尼斯电影节) / 2013-10-04(美国)<br>    片长: 91分钟<br>    又名: 引力边缘(港) / 地球引力 / 重力 / Gravedad<br>    IMDb链接: tt1454468<br>    <a id="more"></a><br>    <video src="http://oynzup8w0.bkt.clouddn.com/%E5%9C%B0%E5%BF%83%E5%BC%95%E5%8A%9B.mp4" type="video/mp4" controls="controls" width="100%" height="100%"></video></p>
-<p>地心引力的剧情简介 · · · · · ·<br>深邃浩瀚的外层空间，蔚蓝的地球与深不见底、漆黑一片的宇宙形成鲜明对比。一台隶属美国的空间站，数名宇航人员正进行太空漫步，对所属卫星做着例行检查。初上太空的瑞安·斯通博士（桑德拉·布洛克 Sandra Bullock 饰）在经验丰富的宇航员麦特·科沃斯基（乔治·克鲁尼 George Clooney 饰）的协助下，有条不紊地检查每一个部件。此次是科沃斯基退休前的最后一次飞行，他幽默风趣地活跃着团队的氛围。就在此时，休士顿总部传来骇人消息，不久前行将废弃俄罗斯卫星被导弹击毁，碎片以超过子弹的速度在地球轨道上散开，并意外击中其他卫星，引起连锁反应制造了新的碎片。<br>    瑞安一行遭到碎片重创，有的同伴不幸身亡，而她和科沃斯基失去控制坠入宇宙深处。幸存的二人不得不彼此信赖，拼尽全力朝向故土前进…… </p>
-]]></content>
-      
-        <categories>
-            
-            <category> 电影 </category>
-            
-        </categories>
-        
-        
-    </entry>
-    
-    <entry>
-      <title><![CDATA[批量转换编码工具]]></title>
-      <url>/2017/10/30/%E5%8F%AF%E6%89%B9%E9%87%8F%E8%BD%AC%E6%8D%A2%E7%BC%96%E7%A0%81/</url>
-      <content type="html"><![CDATA[<p>项目地址：<a href="https://github.com/SongMin90/CodedConversion" target="_blank" rel="external">https://github.com/SongMin90/CodedConversion</a></p>
-<p>windows配置java环境点击“文件编码转换工具.jar”运行即可。<a href="https://github.com/SongMin90/CodedConversion/blob/master/%E6%96%87%E4%BB%B6%E7%BC%96%E7%A0%81%E8%BD%AC%E6%8D%A2%E5%B7%A5%E5%85%B7.jar?raw=true" title="下载工具" target="_blank" rel="external">下载工具</a><br><a id="more"></a><br><img src="http://oym908ihz.bkt.clouddn.com/%E5%8D%95%E4%B8%AA%E6%93%8D%E4%BD%9C.png" alt="单个操作"><img src="http://oym908ihz.bkt.clouddn.com/%E6%89%B9%E9%87%8F%E6%93%8D%E4%BD%9C.png" alt="批量操作"></p>
-]]></content>
-      
-        <categories>
-            
-            <category> Java </category>
-            
-        </categories>
-        
-        
-        <tags>
-            
-            <tag> 编码转换 </tag>
-            
-        </tags>
-        
-    </entry>
-    
-    <entry>
-      <title><![CDATA[Java递归读取文件]]></title>
-      <url>/2017/10/30/%E8%AF%BB%E5%8F%96%E6%96%87%E4%BB%B6%E5%A4%B9%E7%9A%84%E5%85%A8%E9%83%A8%E6%96%87%E4%BB%B6/</url>
-      <content type="html"><![CDATA[<p>在<strong>java</strong>开发中，很多情况需要我们对一个文件夹里的文件进行各种操作，于是这里我们可以使用递归的方式循环读取文件夹文件<br><figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div></pre></td><td class="code"><pre><div class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">find</span><span class="params">(String src)</span> </span>&#123;</div><div class="line">	File file = <span class="keyword">new</span> File(src);</div><div class="line">	File[] list = file.listFiles();</div><div class="line">	<span class="keyword">for</span> (File f : list) &#123;</div><div class="line">		<span class="keyword">if</span>(f.isDirectory()) &#123;</div><div class="line">			find(f);</div><div class="line">		&#125; <span class="keyword">else</span> &#123;</div><div class="line">			<span class="comment">// 这里即对文件进行操作</span></div><div class="line">		&#125;</div><div class="line">	&#125;</div><div class="line">&#125;</div></pre></td></tr></table></figure></p>
-]]></content>
-      
-        <categories>
-            
-            <category> Java </category>
-            
-        </categories>
-        
-        
-        <tags>
-            
-            <tag> 递归 </tag>
-            
-        </tags>
-        
-    </entry>
-    
-    <entry>
-      <title><![CDATA[安卓定时器]]></title>
-      <url>/2017/10/30/%E5%AE%89%E5%8D%93%E5%80%92%E8%AE%A1%E6%97%B6%E5%AE%9A%E6%97%B6%E5%99%A8/</url>
-      <content type="html"><![CDATA[<p>在安卓开发引导界面的时候，我们可以使用安卓自带的定时器<strong>CountDownTimer</strong><br><figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">new</span> CountDownTimer(<span class="number">3000</span>, <span class="number">1000</span>) &#123; <span class="comment">// 第一个时间为总时间，第二个为间隔时间</span></div><div class="line">	<span class="meta">@Override</span></div><div class="line">		<span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">onTick</span><span class="params">(<span class="keyword">long</span> l)</span> </span>&#123; <span class="comment">// 每次循环将执行</span></div><div class="line">		tv_time.setText(l/<span class="number">1000</span> + <span class="string">" s"</span>);</div><div class="line">	&#125;</div><div class="line"></div><div class="line">	<span class="meta">@Override</span></div><div class="line">		<span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">onFinish</span><span class="params">()</span> </span>&#123; <span class="comment">// 计时结束后执行</span></div><div class="line">		Intent intent = <span class="keyword">new</span> Intent(GuideActivity.<span class="keyword">this</span>, MainActivity.class);</div><div class="line">		intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK | Intent.FLAG_ACTIVITY_NEW_TASK);</div><div class="line">		startActivity(intent);</div><div class="line">	&#125;</div><div class="line">&#125;.start();</div></pre></td></tr></table></figure></p>
-<a id="more"></a>
-<p>相比<strong>Handler</strong>，这种方式将使代码变得十分简洁和方便。</p>
-]]></content>
-      
-        <categories>
-            
-            <category> 安卓 </category>
-            
-        </categories>
-        
-        
-        <tags>
-            
-            <tag> 安卓定时器 </tag>
-            
-        </tags>
-        
-    </entry>
-    
-    <entry>
-      <title><![CDATA[OkGo缓存的使用]]></title>
-      <url>/2017/10/30/OkGo%E7%BC%93%E5%AD%98%E7%9A%84%E4%BD%BF%E7%94%A8/</url>
-      <content type="html"><![CDATA[<h3 id="OkGo-一个基于okhttp的标准RESTful风格的网络框架"><a href="#OkGo-一个基于okhttp的标准RESTful风格的网络框架" class="headerlink" title="OkGo, 一个基于okhttp的标准RESTful风格的网络框架"></a>OkGo, 一个基于okhttp的标准RESTful风格的网络框架</h3><p>github地址：<a href="https://github.com/jeasonlzy/okhttp-OkGo" target="_blank" rel="external">https://github.com/jeasonlzy/okhttp-OkGo</a></p>
-<h4 id="首先添加库"><a href="#首先添加库" class="headerlink" title="首先添加库"></a>首先添加库</h4><figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">compile <span class="string">'com.lzy.net:okgo:3.0.4'</span></div></pre></td></tr></table></figure>
-<a id="more"></a>
-<h4 id="另外得到的json转bean将用到Gson，所以还需添加库"><a href="#另外得到的json转bean将用到Gson，所以还需添加库" class="headerlink" title="另外得到的json转bean将用到Gson，所以还需添加库"></a>另外得到的json转bean将用到Gson，所以还需添加库</h4><figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">compile <span class="string">'com.google.code.gson:gson-parent:2.8.1'</span></div><div class="line">compile <span class="string">'com.google.code.gson:gson:2.8.1'</span></div></pre></td></tr></table></figure>
-<h4 id="缓存示例"><a href="#缓存示例" class="headerlink" title="缓存示例"></a>缓存示例</h4><p>请求<br><figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div></pre></td><td class="code"><pre><div class="line">String url = <span class="string">"http://118.89.101.23:8080/order/getCommittedOrdersorderState=1&amp;stuId=2015040201143"</span>;</div><div class="line">OkGo.&lt;Orders&gt;get(url)</div><div class="line">	.tag(<span class="keyword">this</span>)</div><div class="line">	.cacheKey(url)</div><div class="line">	.cacheMode(CacheMode.FIRST_CACHE_THEN_REQUEST)</div><div class="line">	.cacheTime(<span class="number">3600</span> * <span class="number">24</span> * <span class="number">30</span>)</div><div class="line">	.execute(<span class="keyword">new</span> OrdersCallback()&#123;</div><div class="line">		<span class="meta">@Override</span></div><div class="line">			<span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">onSuccess</span><span class="params">(Response&lt;Orders&gt; response)</span> </span>&#123;</div><div class="line">			jiexi(response);</div><div class="line">		&#125;</div><div class="line"></div><div class="line">		<span class="meta">@Override</span></div><div class="line">			<span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">onCacheSuccess</span><span class="params">(Response&lt;Orders&gt; response)</span> </span>&#123;</div><div class="line">			jiexi(response);</div><div class="line">		&#125;</div><div class="line">	&#125;);</div></pre></td></tr></table></figure></p>
-<p>定义的Callback需要继承AbsCallback<t><br><figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">OrdersCallback</span> <span class="keyword">extends</span> <span class="title">AbsCallback</span>&lt;<span class="title">Orders</span>&gt; </span>&#123;</div><div class="line"></div><div class="line">    <span class="meta">@Override</span></div><div class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">onSuccess</span><span class="params">(Response&lt;Orders&gt; response)</span> </span>&#123;</div><div class="line">    &#125;</div><div class="line"></div><div class="line">    <span class="meta">@Override</span></div><div class="line">    <span class="function"><span class="keyword">public</span> Orders <span class="title">convertResponse</span><span class="params">(okhttp3.Response response)</span> <span class="keyword">throws</span> Throwable </span>&#123;</div><div class="line">        ResponseBody body = response.body();</div><div class="line">        <span class="keyword">return</span> <span class="keyword">new</span> Gson().fromJson(body.charStream(), Orders.class);</div><div class="line">    &#125;</div><div class="line">	</div><div class="line">&#125;</div></pre></td></tr></table></figure></t></p>
-<h4 id="注意事项"><a href="#注意事项" class="headerlink" title="注意事项"></a>注意事项</h4><p>使用缓存前，必须让涉及到缓存javaBean对象实现Serializable接口，否者会报NotSerializableException。因为缓存的原理是将对象序列化后直接写入数据库中，如果不实现Serializable接口，会导致对象无法序列化，进而无法写入到数据库中，也就达不到缓存的效果。</p>
-<h4 id="缓存相关的API"><a href="#缓存相关的API" class="headerlink" title="缓存相关的API"></a>缓存相关的API</h4><ol>
-<li><p>cacheKey<br>每次框架是根据这个cacheKey去到数据库中寻找缓存的，所以一般来说，每个不同功能的请求都要设置不一样的cacheKey，如果相同，会导致数据库中的缓存数据发生覆盖或错乱。如果不指定cacheKey，默认是用url带参数的全路径名为cacheKey。</p>
-</li>
-<li><p>cacheMode<br>目前默认提供了五种CacheMode缓存模式，不同的模式会有不同的Callback回调顺序，详细见下方的回调顺序<br>NO_CACHE：不使用缓存，该模式下cacheKey、cacheTime 参数均无效<br>DEFAULT：按照HTTP协议的默认缓存规则，例如有304响应头时缓存。<br>REQUEST_FAILED_READ_CACHE：先请求网络，如果请求网络失败，则读取缓存，如果读取缓存失败，本次请求失败。<br>IF_NONE_CACHE_REQUEST：如果缓存不存在才请求网络，否则使用缓存。<br>FIRST_CACHE_THEN_REQUEST：先使用缓存，不管是否存在，仍然请求网络。</p>
-</li>
-<li><p>cacheTime<br>当前缓存的有效时间是多长，单位毫秒，上面示例是3600秒，也就是一个小时，这个根据自己需要设置，如果不设置，默认是CacheEntity.CACHE_NEVER_EXPIRE=-1，也就是永不过期。该参数对DEFAULT模式是无效的，因为该模式是完全遵循标准的http协议的，缓存时间是依靠服务端响应头来控制，所以客户端的cacheTime参数无效。</p>
-</li>
-<li><p>cachePolicy<br>这个是自定义的缓存策略，内置的五大缓存模式其实就是这个缓存策略CachePolicy接口的五种不同实现，如果这五种模式不能满足你，你完全可以自行实现这个接口，写出属于你自己的缓存规则。</p>
-</li>
-<li><p>onCacheSuccess<br>当缓存读取成功后，回调的是这个方法，如果你只复写了onSuccess方法，是无法获取缓存的，这里要注意。</p>
-</li>
-</ol>
-<h5 id="回调顺序"><a href="#回调顺序" class="headerlink" title="回调顺序"></a>回调顺序</h5><p>1.) 无缓存模式 CacheMode.NO_CACHE<br>网络请求成功 onStart -&gt; convertResponse -&gt; onSuccess -&gt; onFinish<br>网络请求失败 onStart -&gt; onError -&gt; onFinish</p>
-<p>2.) 默认缓存模式,遵循304头 CacheMode.DEFAULT<br>网络请求成功,服务端返回非304 onStart -&gt; convertResponse -&gt; onSuccess -&gt; onFinish<br>网络请求成功服务端返回304 onStart -&gt; onCacheSuccess -&gt; onFinish<br>网络请求失败 onStart -&gt; onError -&gt; onFinish</p>
-<p>3.) 请求网络失败后读取缓存 CacheMode.REQUEST_FAILED_READ_CACHE<br>网络请求成功,不读取缓存 onStart -&gt; convertResponse -&gt; onSuccess -&gt; onFinish<br>网络请求失败,读取缓存成功 onStart -&gt; onCacheSuccess -&gt; onFinish<br>网络请求失败,读取缓存失败 onStart -&gt; onError -&gt; onFinish</p>
-<p>4.) 如果缓存不存在才请求网络，否则使用缓存 CacheMode.IF_NONE_CACHE_REQUEST<br>已经有缓存,不请求网络 onStart -&gt; onCacheSuccess -&gt; onFinish<br>没有缓存请求网络成功 onStart -&gt; convertResponse -&gt; onSuccess -&gt; onFinish<br>没有缓存请求网络失败 onStart -&gt; onError -&gt; onFinish</p>
-<p>5.) 先使用缓存，不管是否存在，仍然请求网络 CacheMode.FIRST_CACHE_THEN_REQUEST<br>无缓存时,网络请求成功 onStart -&gt; convertResponse -&gt; onSuccess -&gt; onFinish<br>无缓存时,网络请求失败 onStart -&gt; onError -&gt; onFinish<br>有缓存时,网络请求成功 onStart -&gt; onCacheSuccess -&gt; convertResponse -&gt; onSuccess -&gt; onFinish<br>有缓存时,网络请求失败 onStart -&gt; onCacheSuccess -&gt; onError -&gt; onFinish</p>
-<h4 id="完成"><a href="#完成" class="headerlink" title="完成"></a>完成</h4>]]></content>
-      
-        <categories>
-            
-            <category> 安卓 </category>
-            
-        </categories>
-        
-        
-        <tags>
-            
-            <tag> OkGo </tag>
-            
-        </tags>
-        
-    </entry>
-    
-    <entry>
-      <title><![CDATA[Linux配置JavaWeb环境，安装Mysql和Tomcat]]></title>
-      <url>/2017/10/30/Linux%E9%85%8D%E7%BD%AEJava%E7%8E%AF%E5%A2%83%EF%BC%8C%E5%AE%89%E8%A3%85Mysql%E5%92%8CTomcat/</url>
-      <content type="html"><![CDATA[<h4 id="1、设置Linux字符集为中文"><a href="#1、设置Linux字符集为中文" class="headerlink" title="1、设置Linux字符集为中文"></a>1、设置Linux字符集为中文</h4><figure class="highlight shell"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">vim /etc/sysconfig/i18n</div></pre></td></tr></table></figure>
-<p>默认：<br>LANG=”en_US.UTF-8”<br>SYSFONiT=”latarcyrheb-sun16”<br>改为：<br>LANG=”zh_CN.UTF-8”<br>LANGUAGE=”zh_CN.gbk:zh_CN.gbk:zh_CN”<br>SUPPORTED=”zh_CN.gbk:zh_CN:zh:en_US.UTF-8:en_US:en”<br>SYSFONT=”lat0-sun16”<a id="more"></a><br><figure class="highlight shell"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">vim /etc/profile</div></pre></td></tr></table></figure></p>
-<p>export LC_ALL=”zh_CN.UTF-8”<br>export LANG=”zh_CN.UTF-8”</p>
-<h6 id="查看编码"><a href="#查看编码" class="headerlink" title="查看编码"></a>查看编码</h6><figure class="highlight shell"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">locale</div></pre></td></tr></table></figure>
-<h6 id="先更新yum源"><a href="#先更新yum源" class="headerlink" title="先更新yum源"></a>先更新yum源</h6><figure class="highlight shell"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">yum -y update</div></pre></td></tr></table></figure>
-<h4 id="2、安装java环境"><a href="#2、安装java环境" class="headerlink" title="2、安装java环境"></a>2、安装java环境</h4><figure class="highlight shell"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">yum -y list java*  //查看yum库中的java安装包</div><div class="line">yum -y install java-1.8.0-openjdk*  //找到一个直接安装</div><div class="line">java -version //查看安装的java版本</div></pre></td></tr></table></figure>
-<h4 id="3、安装mysql"><a href="#3、安装mysql" class="headerlink" title="3、安装mysql"></a>3、安装mysql</h4><figure class="highlight shell"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">wget http://dev.mysql.com/get/mysql-community-release-el7-5.noarch.rpm</div><div class="line">rpm -ivh mysql-community-release-el7-5.noarch.rpm</div><div class="line">yum install mysql-community-server</div></pre></td></tr></table></figure>
-<p>成功安装之后重启mysql服务</p>
-<h6 id="如果yum包中有mysql-community-server，则直接以下命令即可"><a href="#如果yum包中有mysql-community-server，则直接以下命令即可" class="headerlink" title="如果yum包中有mysql-community-server，则直接以下命令即可"></a>如果yum包中有mysql-community-server，则直接以下命令即可</h6><figure class="highlight shell"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">yum -y install mysql*</div></pre></td></tr></table></figure>
-<h6 id="重启mysql"><a href="#重启mysql" class="headerlink" title="重启mysql"></a>重启mysql</h6><figure class="highlight shell"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">service mysqld restart</div></pre></td></tr></table></figure>
-<h6 id="初次安装mysql是root账户是没有密码的，设置密码的方法"><a href="#初次安装mysql是root账户是没有密码的，设置密码的方法" class="headerlink" title="初次安装mysql是root账户是没有密码的，设置密码的方法"></a>初次安装mysql是root账户是没有密码的，设置密码的方法</h6><figure class="highlight shell"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">mysql -uroot</div><div class="line"><span class="meta">mysql&gt;</span> set password for 'root'@'localhost' = password('mypasswd');</div><div class="line"><span class="meta">mysql&gt;</span> GRANT ALL PRIVILEGES ON *.* TO 'root'@'%' IDENTIFIED BY 'sa' WITH GRANT OPTION;	//此种设置方法可以让外部软件navicat连接数据库</div><div class="line"><span class="meta">mysql&gt;</span> exit</div></pre></td></tr></table></figure>
-<p>搞定！</p>
-<h4 id="4、安装tomcat"><a href="#4、安装tomcat" class="headerlink" title="4、安装tomcat"></a>4、安装tomcat</h4><figure class="highlight shell"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">yum -y list tomcat*  //查看yum库中的tomcat安装包</div><div class="line">yum -y install tomcat*  //找到一个直接安装</div><div class="line">service tomcat start //启动tomcat</div></pre></td></tr></table></figure>]]></content>
-      
-        <categories>
-            
-            <category> JavaEE </category>
-            
-        </categories>
-        
-        
-        <tags>
-            
-            <tag> JavaWeb </tag>
-            
-        </tags>
-        
-    </entry>
-    
-    <entry>
-      <title><![CDATA[欢迎访问SongM的个人博客！！！]]></title>
-      <url>/2017/10/29/%E6%AC%A2%E8%BF%8E%E8%AE%BF%E9%97%AE/</url>
-      <content type="html"><![CDATA[<p><img src="http://oym908ihz.bkt.clouddn.com/David%20Gomez%20%202017-10-15%2005-48-27.jpg" alt="此处输入图片的描述"></p>
-<h2 id="博客采用Hexo搭建，欢迎大家访问！"><a href="#博客采用Hexo搭建，欢迎大家访问！" class="headerlink" title="博客采用Hexo搭建，欢迎大家访问！"></a>博客采用<a href="https://hexo.io" target="_blank" rel="external">Hexo</a>搭建，欢迎大家访问！</h2><a id="more"></a>
-<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="330" height="86" src="//music.163.com/outchain/player?type=2&id=584155&auto=0&height=66"></iframe>
-
-
-]]></content>
-      
-        <categories>
-            
-            <category> 记录 </category>
-            
-        </categories>
-        
-        
-        <tags>
-            
-            <tag> 欢迎访问 </tag>
-            
-        </tags>
-        
-    </entry>
-    
-  
-  
+<search>
+  <entry>
+    <title><![CDATA[地心引力]]></title>
+    <url>%2F2017%2F10%2F31%2F%E5%9C%B0%E5%BF%83%E5%BC%95%E5%8A%9B%2F</url>
+    <content type="text"><![CDATA[地心引力 Gravity (2013)豆瓣：7.8 导演: 阿方索·卡隆 编剧: 阿方索·卡隆 / 霍纳斯·夸隆 主演: 桑德拉·布洛克 / 乔治·克鲁尼 / 艾德·哈里斯 / 奥托·伊格内修森 / 法尔杜特·夏尔马 / 更多… 类型: 剧情 / 科幻 / 冒险 制片国家/地区: 美国 / 英国 语言: 英语 / 格陵兰语 上映日期: 2013-11-19(中国大陆) / 2013-08-28(威尼斯电影节) / 2013-10-04(美国) 片长: 91分钟 又名: 引力边缘(港) / 地球引力 / 重力 / Gravedad IMDb链接: tt1454468 地心引力的剧情简介 · · · · · ·深邃浩瀚的外层空间，蔚蓝的地球与深不见底、漆黑一片的宇宙形成鲜明对比。一台隶属美国的空间站，数名宇航人员正进行太空漫步，对所属卫星做着例行检查。初上太空的瑞安·斯通博士（桑德拉·布洛克 Sandra Bullock 饰）在经验丰富的宇航员麦特·科沃斯基（乔治·克鲁尼 George Clooney 饰）的协助下，有条不紊地检查每一个部件。此次是科沃斯基退休前的最后一次飞行，他幽默风趣地活跃着团队的氛围。就在此时，休士顿总部传来骇人消息，不久前行将废弃俄罗斯卫星被导弹击毁，碎片以超过子弹的速度在地球轨道上散开，并意外击中其他卫星，引起连锁反应制造了新的碎片。 瑞安一行遭到碎片重创，有的同伴不幸身亡，而她和科沃斯基失去控制坠入宇宙深处。幸存的二人不得不彼此信赖，拼尽全力朝向故土前进……]]></content>
+      <categories>
+        <category>电影</category>
+      </categories>
+  </entry>
+  <entry>
+    <title><![CDATA[批量转换编码工具]]></title>
+    <url>%2F2017%2F10%2F30%2F%E5%8F%AF%E6%89%B9%E9%87%8F%E8%BD%AC%E6%8D%A2%E7%BC%96%E7%A0%81%2F</url>
+    <content type="text"><![CDATA[项目地址：https://github.com/SongMin90/CodedConversion windows配置java环境点击“文件编码转换工具.jar”运行即可。下载工具]]></content>
+      <categories>
+        <category>Java</category>
+      </categories>
+      <tags>
+        <tag>编码转换</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[Java递归读取文件]]></title>
+    <url>%2F2017%2F10%2F30%2F%E8%AF%BB%E5%8F%96%E6%96%87%E4%BB%B6%E5%A4%B9%E7%9A%84%E5%85%A8%E9%83%A8%E6%96%87%E4%BB%B6%2F</url>
+    <content type="text"><![CDATA[在java开发中，很多情况需要我们对一个文件夹里的文件进行各种操作，于是这里我们可以使用递归的方式循环读取文件夹文件1234567891011public void find(String src) &#123; File file = new File(src); File[] list = file.listFiles(); for (File f : list) &#123; if(f.isDirectory()) &#123; find(f); &#125; else &#123; // 这里即对文件进行操作 &#125; &#125;&#125;]]></content>
+      <categories>
+        <category>Java</category>
+      </categories>
+      <tags>
+        <tag>递归</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[安卓定时器]]></title>
+    <url>%2F2017%2F10%2F30%2F%E5%AE%89%E5%8D%93%E5%80%92%E8%AE%A1%E6%97%B6%E5%AE%9A%E6%97%B6%E5%99%A8%2F</url>
+    <content type="text"><![CDATA[在安卓开发引导界面的时候，我们可以使用安卓自带的定时器CountDownTimer12345678910111213new CountDownTimer(3000, 1000) &#123; // 第一个时间为总时间，第二个为间隔时间 @Override public void onTick(long l) &#123; // 每次循环将执行 tv_time.setText(l/1000 + " s"); &#125; @Override public void onFinish() &#123; // 计时结束后执行 Intent intent = new Intent(GuideActivity.this, MainActivity.class); intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK | Intent.FLAG_ACTIVITY_NEW_TASK); startActivity(intent); &#125;&#125;.start(); 相比Handler，这种方式将使代码变得十分简洁和方便。]]></content>
+      <categories>
+        <category>安卓</category>
+      </categories>
+      <tags>
+        <tag>安卓定时器</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[OkGo缓存的使用]]></title>
+    <url>%2F2017%2F10%2F30%2FOkGo%E7%BC%93%E5%AD%98%E7%9A%84%E4%BD%BF%E7%94%A8%2F</url>
+    <content type="text"><![CDATA[OkGo, 一个基于okhttp的标准RESTful风格的网络框架github地址：https://github.com/jeasonlzy/okhttp-OkGo 首先添加库1compile 'com.lzy.net:okgo:3.0.4' 另外得到的json转bean将用到Gson，所以还需添加库12compile 'com.google.code.gson:gson-parent:2.8.1'compile 'com.google.code.gson:gson:2.8.1' 缓存示例请求1234567891011121314151617String url = "http://118.89.101.23:8080/order/getCommittedOrdersorderState=1&amp;stuId=2015040201143";OkGo.&lt;Orders&gt;get(url) .tag(this) .cacheKey(url) .cacheMode(CacheMode.FIRST_CACHE_THEN_REQUEST) .cacheTime(3600 * 24 * 30) .execute(new OrdersCallback()&#123; @Override public void onSuccess(Response&lt;Orders&gt; response) &#123; jiexi(response); &#125; @Override public void onCacheSuccess(Response&lt;Orders&gt; response) &#123; jiexi(response); &#125; &#125;); 定义的Callback需要继承AbsCallback12345678910111213public class OrdersCallback extends AbsCallback&lt;Orders&gt; &#123; @Override public void onSuccess(Response&lt;Orders&gt; response) &#123; &#125; @Override public Orders convertResponse(okhttp3.Response response) throws Throwable &#123; ResponseBody body = response.body(); return new Gson().fromJson(body.charStream(), Orders.class); &#125; &#125; 注意事项使用缓存前，必须让涉及到缓存javaBean对象实现Serializable接口，否者会报NotSerializableException。因为缓存的原理是将对象序列化后直接写入数据库中，如果不实现Serializable接口，会导致对象无法序列化，进而无法写入到数据库中，也就达不到缓存的效果。 缓存相关的API cacheKey每次框架是根据这个cacheKey去到数据库中寻找缓存的，所以一般来说，每个不同功能的请求都要设置不一样的cacheKey，如果相同，会导致数据库中的缓存数据发生覆盖或错乱。如果不指定cacheKey，默认是用url带参数的全路径名为cacheKey。 cacheMode目前默认提供了五种CacheMode缓存模式，不同的模式会有不同的Callback回调顺序，详细见下方的回调顺序NO_CACHE：不使用缓存，该模式下cacheKey、cacheTime 参数均无效DEFAULT：按照HTTP协议的默认缓存规则，例如有304响应头时缓存。REQUEST_FAILED_READ_CACHE：先请求网络，如果请求网络失败，则读取缓存，如果读取缓存失败，本次请求失败。IF_NONE_CACHE_REQUEST：如果缓存不存在才请求网络，否则使用缓存。FIRST_CACHE_THEN_REQUEST：先使用缓存，不管是否存在，仍然请求网络。 cacheTime当前缓存的有效时间是多长，单位毫秒，上面示例是3600秒，也就是一个小时，这个根据自己需要设置，如果不设置，默认是CacheEntity.CACHE_NEVER_EXPIRE=-1，也就是永不过期。该参数对DEFAULT模式是无效的，因为该模式是完全遵循标准的http协议的，缓存时间是依靠服务端响应头来控制，所以客户端的cacheTime参数无效。 cachePolicy这个是自定义的缓存策略，内置的五大缓存模式其实就是这个缓存策略CachePolicy接口的五种不同实现，如果这五种模式不能满足你，你完全可以自行实现这个接口，写出属于你自己的缓存规则。 onCacheSuccess当缓存读取成功后，回调的是这个方法，如果你只复写了onSuccess方法，是无法获取缓存的，这里要注意。 回调顺序1.) 无缓存模式 CacheMode.NO_CACHE网络请求成功 onStart -&gt; convertResponse -&gt; onSuccess -&gt; onFinish网络请求失败 onStart -&gt; onError -&gt; onFinish 2.) 默认缓存模式,遵循304头 CacheMode.DEFAULT网络请求成功,服务端返回非304 onStart -&gt; convertResponse -&gt; onSuccess -&gt; onFinish网络请求成功服务端返回304 onStart -&gt; onCacheSuccess -&gt; onFinish网络请求失败 onStart -&gt; onError -&gt; onFinish 3.) 请求网络失败后读取缓存 CacheMode.REQUEST_FAILED_READ_CACHE网络请求成功,不读取缓存 onStart -&gt; convertResponse -&gt; onSuccess -&gt; onFinish网络请求失败,读取缓存成功 onStart -&gt; onCacheSuccess -&gt; onFinish网络请求失败,读取缓存失败 onStart -&gt; onError -&gt; onFinish 4.) 如果缓存不存在才请求网络，否则使用缓存 CacheMode.IF_NONE_CACHE_REQUEST已经有缓存,不请求网络 onStart -&gt; onCacheSuccess -&gt; onFinish没有缓存请求网络成功 onStart -&gt; convertResponse -&gt; onSuccess -&gt; onFinish没有缓存请求网络失败 onStart -&gt; onError -&gt; onFinish 5.) 先使用缓存，不管是否存在，仍然请求网络 CacheMode.FIRST_CACHE_THEN_REQUEST无缓存时,网络请求成功 onStart -&gt; convertResponse -&gt; onSuccess -&gt; onFinish无缓存时,网络请求失败 onStart -&gt; onError -&gt; onFinish有缓存时,网络请求成功 onStart -&gt; onCacheSuccess -&gt; convertResponse -&gt; onSuccess -&gt; onFinish有缓存时,网络请求失败 onStart -&gt; onCacheSuccess -&gt; onError -&gt; onFinish 完成]]></content>
+      <categories>
+        <category>安卓</category>
+      </categories>
+      <tags>
+        <tag>OkGo</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[Linux配置JavaWeb环境，安装Mysql和Tomcat]]></title>
+    <url>%2F2017%2F10%2F30%2FLinux%E9%85%8D%E7%BD%AEJava%E7%8E%AF%E5%A2%83%EF%BC%8C%E5%AE%89%E8%A3%85Mysql%E5%92%8CTomcat%2F</url>
+    <content type="text"><![CDATA[1、设置Linux字符集为中文1vim /etc/sysconfig/i18n 默认：LANG=”en_US.UTF-8”SYSFONiT=”latarcyrheb-sun16”改为：LANG=”zh_CN.UTF-8”LANGUAGE=”zh_CN.gbk:zh_CN.gbk:zh_CN”SUPPORTED=”zh_CN.gbk:zh_CN:zh:en_US.UTF-8:en_US:en”SYSFONT=”lat0-sun16”1vim /etc/profile export LC_ALL=”zh_CN.UTF-8”export LANG=”zh_CN.UTF-8” 查看编码1locale 先更新yum源1yum -y update 2、安装java环境123yum -y list java* //查看yum库中的java安装包yum -y install java-1.8.0-openjdk* //找到一个直接安装java -version //查看安装的java版本 3、安装mysql123wget http://dev.mysql.com/get/mysql-community-release-el7-5.noarch.rpmrpm -ivh mysql-community-release-el7-5.noarch.rpmyum install mysql-community-server 成功安装之后重启mysql服务 如果yum包中有mysql-community-server，则直接以下命令即可1yum -y install mysql* 重启mysql1service mysqld restart 初次安装mysql是root账户是没有密码的，设置密码的方法1234mysql -urootmysql&gt; set password for 'root'@'localhost' = password('mypasswd');mysql&gt; GRANT ALL PRIVILEGES ON *.* TO 'root'@'%' IDENTIFIED BY 'sa' WITH GRANT OPTION; //此种设置方法可以让外部软件navicat连接数据库mysql&gt; exit 搞定！ 4、安装tomcat123yum -y list tomcat* //查看yum库中的tomcat安装包yum -y install tomcat* //找到一个直接安装service tomcat start //启动tomcat]]></content>
+      <categories>
+        <category>JavaEE</category>
+      </categories>
+      <tags>
+        <tag>JavaWeb</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[欢迎访问SongM的个人博客！！！]]></title>
+    <url>%2F2017%2F10%2F29%2F%E6%AC%A2%E8%BF%8E%E8%AE%BF%E9%97%AE%2F</url>
+    <content type="text"><![CDATA[博客采用Hexo搭建，欢迎大家访问！]]></content>
+      <categories>
+        <category>记录</category>
+      </categories>
+      <tags>
+        <tag>欢迎访问</tag>
+      </tags>
+  </entry>
 </search>
