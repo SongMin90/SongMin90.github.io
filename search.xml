@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[Tomcat实用配置]]></title>
+    <url>%2F2017%2F11%2F04%2FTomcat%E5%AE%9E%E7%94%A8%E9%85%8D%E7%BD%AE%2F</url>
+    <content type="text"><![CDATA[Tomcat中更改网站根目录和默认页的配置方法http://www.jb51.net/article/49814.htm Tomcat实现多端口、多域名访问（只针对一个tomcat）http://www.cnblogs.com/fengyefeiluo/p/5076231.html]]></content>
+      <categories>
+        <category>JavaEE</category>
+      </categories>
+      <tags>
+        <tag>Tomcat</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[Markdown——简单入门]]></title>
     <url>%2F2017%2F11%2F04%2FMarkdown%E2%80%94%E2%80%94%E7%AE%80%E5%8D%95%E5%85%A5%E9%97%A8%2F</url>
     <content type="text"><![CDATA[简介 Markdown是一种轻量级的「标记语言」，它的优点很多，目前也被越来越多的写作爱好者，撰稿者广泛使用。看到这里请不要被「标记」、「语言」所迷惑，Markdown 的语法十分简单。常用的标记符号也不超过十个，这种相对于更为复杂的 HTML 标记语言来说，Markdown 可谓是十分轻量的，学习成本也不需要太多，且一旦熟悉这种语法规则，会有一劳永逸的效果。 官方文档 创始人 John Gruber 的 Markdown 语法说明 Markdown 中文版语法说明 常用标签标题12345# 一级标题## 二级标题### 三级标题...总共6级 引用123&gt; 引用内容&gt; ...&gt; ... 图片1![图片说明](图片地址) 引入链接12与图片相似，少了前面的![链接说明](链接地址) 字体加粗1**需要加粗的文字** 斜体12与加粗相似，两个*变成了一个**需要变斜的文字* 表格12345| Tables | Are | Cool || ------------- |:-------------:| -----:|| col 3 is | right-aligned | $1600 || col 2 is | centered | $12 || zebra stripes | are neat | $1 | 效果如下 Tables Are Cool col 3 is right-aligned $1600 col 2 is centered $12 zebra stripes are neat $1 代码框1三个```+代码语言（如```java）开始，中间放代码，最后```结束 分割线12三个**** 插入音乐音乐来源：网易云音乐1&lt;iframe frameborder=&quot;no&quot; border=&quot;0&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot; width=330 height=86 src=&quot;音乐地址&quot;&gt;&lt;/iframe&gt; 插入视频1&lt;video src=&apos;视频地址&apos; type=&apos;video/mp4&apos; controls=&apos;controls&apos; width=&apos;100%&apos; height=&apos;100%&apos;&gt;&lt;/video&gt; 如果是B站引入的视频且使用了hexo-tag-bilibili插件，则只需要 1&#123;% bilibili AV号 %&#125; 到这里，Markdown 的基本语法在日常的使用中基本就没什么大问题了，只要多加练习，配合好用的工具，写起东西来肯定会行云流水。]]></content>

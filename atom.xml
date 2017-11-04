@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2017-11-04T13:40:33.241Z</updated>
+  <updated>2017-11-04T13:50:23.819Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Tomcat实用配置</title>
+    <link href="http://yoursite.com/2017/11/04/Tomcat%E5%AE%9E%E7%94%A8%E9%85%8D%E7%BD%AE/"/>
+    <id>http://yoursite.com/2017/11/04/Tomcat实用配置/</id>
+    <published>2017-11-04T13:49:00.000Z</published>
+    <updated>2017-11-04T13:50:23.819Z</updated>
+    
+    <content type="html"><![CDATA[<ul><li>Tomcat中更改网站根目录和默认页的配置方法<br><a href="http://www.jb51.net/article/49814.htm" target="_blank" rel="external">http://www.jb51.net/article/49814.htm</a></li><li>Tomcat实现多端口、多域名访问（只针对一个tomcat）<br><a href="http://www.cnblogs.com/fengyefeiluo/p/5076231.html" target="_blank" rel="external">http://www.cnblogs.com/fengyefeiluo/p/5076231.html</a></li></ul>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;ul&gt;
+&lt;li&gt;Tomcat中更改网站根目录和默认页的配置方法&lt;br&gt;&lt;a href=&quot;http://www.jb51.net/article/49814.htm&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://www.jb51.net/artic
+      
+    
+    </summary>
+    
+      <category term="JavaEE" scheme="http://yoursite.com/categories/JavaEE/"/>
+    
+    
+      <category term="Tomcat" scheme="http://yoursite.com/tags/Tomcat/"/>
+    
+  </entry>
   
   <entry>
     <title>Markdown——简单入门</title>
