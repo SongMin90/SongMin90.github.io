@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2017-11-05T04:56:36.794Z</updated>
+  <updated>2017-11-04T13:50:23.819Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,20 +15,6 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title>图片粘贴测试</title>
-    <link href="http://yoursite.com/2017/11/05/%E5%9B%BE%E7%89%87%E7%B2%98%E8%B4%B4%E6%B5%8B%E8%AF%95/"/>
-    <id>http://yoursite.com/2017/11/05/图片粘贴测试/</id>
-    <published>2017-11-05T03:07:00.000Z</published>
-    <updated>2017-11-05T04:56:36.794Z</updated>
-    
-    <summary type="html">
-    
-    </summary>
-    
-    
-  </entry>
   
   <entry>
     <title>Tomcat实用配置</title>
