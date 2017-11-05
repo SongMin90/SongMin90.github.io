@@ -1,11 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title><![CDATA[图片粘贴测试]]></title>
-    <url>%2F2017%2F11%2F05%2F%E5%9B%BE%E7%89%87%E7%B2%98%E8%B4%B4%E6%B5%8B%E8%AF%95%2F</url>
-    <content type="text"></content>
-  </entry>
-  <entry>
     <title><![CDATA[Tomcat实用配置]]></title>
     <url>%2F2017%2F11%2F04%2FTomcat%E5%AE%9E%E7%94%A8%E9%85%8D%E7%BD%AE%2F</url>
     <content type="text"><![CDATA[Tomcat中更改网站根目录和默认页的配置方法http://www.jb51.net/article/49814.htm Tomcat实现多端口、多域名访问（只针对一个tomcat）http://www.cnblogs.com/fengyefeiluo/p/5076231.html]]></content>
