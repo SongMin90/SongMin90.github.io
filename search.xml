@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[安卓中监听光线强度]]></title>
+    <url>%2F2017%2F11%2F16%2F%E5%AE%89%E5%8D%93%E4%B8%AD%E7%9B%91%E5%90%AC%E5%85%89%E7%BA%BF%E4%BC%A0%E6%84%9F%E5%99%A8%2F</url>
+    <content type="text"><![CDATA[有时安卓开发中，需要通过光线传感器获取当前环境的光线强度。 1、在activity中声明SensorManager1private SensorManager sensorManager; 2、声明感应器事件监听器12345678910111213141516private SensorEventListener listener = new SensorEventListener() &#123; //当感应器精度发生变化 @Override public void onAccuracyChanged(Sensor sensor, int accuracy) &#123; &#125; //当传感器监测到的数值发生变化时 @Override public void onSensorChanged(SensorEvent event) &#123; // values数组中第一个值就是当前的光照强度 float value = event.values[0]; Toast.makeText(getApplicationContext(), "光线强度：" + value + "lux", Toast.LENGTH_SHORT).show(); &#125; &#125;; 3、在onCreate方法中设置监听123456sensorManager = (SensorManager) getSystemService(Context.SENSOR_SERVICE);// 获取光线传感器 Sensor sensor = sensorManager.getDefaultSensor(Sensor.TYPE_LIGHT);if (sensor != null) &#123; // 光线传感器存在时 sensorManager.registerListener(listener, sensor, SensorManager.SENSOR_DELAY_NORMAL); // 注册事件监听 &#125; 4、记得界面退出后要销毁SensorManager12345678@Overrideprotected void onDestroy() &#123; super.onDestroy(); // 注销监听器 if (sensorManager != null) &#123; sensorManager.unregisterListener(listener); &#125;&#125;]]></content>
+      <categories>
+        <category>安卓</category>
+      </categories>
+      <tags>
+        <tag>光线传感器</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[贴几张桌面壁纸]]></title>
     <url>%2F2017%2F11%2F06%2F%E8%B4%B4%E5%87%A0%E5%BC%A0%E6%A1%8C%E9%9D%A2%E5%A3%81%E7%BA%B8%2F</url>
     <content type="text"><![CDATA[风景图 安利个不错的桌面壁纸软件——MyerSplash]]></content>
