@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2017-11-16T10:38:02.012Z</updated>
+  <updated>2017-11-19T05:22:05.625Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>表单信息转json提交</title>
+    <link href="http://yoursite.com/2017/11/19/%E8%A1%A8%E5%8D%95%E4%BF%A1%E6%81%AF%E8%BD%ACjson%E6%8F%90%E4%BA%A4/"/>
+    <id>http://yoursite.com/2017/11/19/表单信息转json提交/</id>
+    <published>2017-11-19T05:18:00.000Z</published>
+    <updated>2017-11-19T05:22:05.625Z</updated>
+    
+    <content type="html"><![CDATA[<p>ajax提交html的form表单信息，并且信息转json<br><a id="more"></a><br><figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div><div class="line">34</div><div class="line">35</div><div class="line">36</div><div class="line">37</div><div class="line">38</div><div class="line">39</div><div class="line">40</div><div class="line">41</div></pre></td><td class="code"><pre><div class="line">&lt;script src=<span class="string">"js/jquery.min.js"</span>&gt;&lt;/script&gt;</div><div class="line">&lt;script type=<span class="string">"text/javascript"</span>&gt;</div><div class="line"><span class="comment">// form数据转json</span></div><div class="line">$.fn.serializeObject = <span class="function"><span class="keyword">function</span>(<span class="params"></span>)    </span></div><div class="line"><span class="function"></span>&#123;    </div><div class="line">   <span class="keyword">var</span> o = &#123;&#125;;    </div><div class="line">   <span class="keyword">var</span> a = <span class="keyword">this</span>.serializeArray();    </div><div class="line">   $.each(a, <span class="function"><span class="keyword">function</span>(<span class="params"></span>) </span>&#123;    </div><div class="line">       <span class="keyword">if</span> (o[<span class="keyword">this</span>.name]) &#123;    </div><div class="line">           <span class="keyword">if</span> (!o[<span class="keyword">this</span>.name].push) &#123;    </div><div class="line">               o[<span class="keyword">this</span>.name] = [o[<span class="keyword">this</span>.name]];    </div><div class="line">           &#125;    </div><div class="line">           o[<span class="keyword">this</span>.name].push(<span class="keyword">this</span>.value || <span class="string">''</span>);    </div><div class="line">       &#125; <span class="keyword">else</span> &#123;    </div><div class="line">           o[<span class="keyword">this</span>.name] = <span class="keyword">this</span>.value || <span class="string">''</span>;    </div><div class="line">       &#125;    </div><div class="line">   &#125;);    </div><div class="line">   <span class="keyword">return</span> o;    </div><div class="line">&#125;;</div><div class="line"><span class="comment">// 提交</span></div><div class="line">$(<span class="string">'#submit'</span>).on(<span class="string">'click'</span>, <span class="function"><span class="keyword">function</span>(<span class="params"></span>)</span>&#123;</div><div class="line">$.ajax(&#123;</div><div class="line">type:<span class="string">'POST'</span>,</div><div class="line"><span class="keyword">async</span>:<span class="literal">false</span>,</div><div class="line">url:<span class="string">'/admin/add'</span>,</div><div class="line">contentType: <span class="string">"application/json; charset=utf-8"</span>,</div><div class="line">data:<span class="built_in">JSON</span>.stringify($(<span class="string">'#admin'</span>).serializeObject()),</div><div class="line">dataType:<span class="string">'json'</span>,</div><div class="line">success:<span class="function"><span class="keyword">function</span>(<span class="params">data</span>)</span>&#123;</div><div class="line"><span class="keyword">if</span>(data.state == <span class="string">'1'</span>) &#123;</div><div class="line">alert(<span class="string">'ok!'</span>);</div><div class="line">&#125; <span class="keyword">else</span> &#123;</div><div class="line">alert(data.message);</div><div class="line">&#125;</div><div class="line">&#125;,</div><div class="line">error:<span class="function"><span class="keyword">function</span>(<span class="params">XMLHttpRequest, textStatus, errorThrown</span>)</span>&#123;</div><div class="line">alert(textStatus+XMLHttpRequest.status);  </div><div class="line">&#125;</div><div class="line">&#125;);</div><div class="line">&#125;);</div><div class="line">&lt;<span class="regexp">/script&gt;</span></div></pre></td></tr></table></figure></p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;ajax提交html的form表单信息，并且信息转json&lt;br&gt;
+    
+    </summary>
+    
+      <category term="javascript" scheme="http://yoursite.com/categories/javascript/"/>
+    
+    
+      <category term="表单转json" scheme="http://yoursite.com/tags/%E8%A1%A8%E5%8D%95%E8%BD%ACjson/"/>
+    
+  </entry>
   
   <entry>
     <title>安卓中监听光线强度</title>
